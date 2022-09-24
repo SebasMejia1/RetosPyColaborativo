@@ -11,9 +11,12 @@ def calcularArea(ancho,alto):
 def calcularPerimetro(ancho,alto):
     perimetro = (ancho*2)+(alto*2)
 
-def graficar(ancho,alto):
-    
-
+def graficar(ancho,alto):  
+   for i in range(alto):
+    for j in range(ancho):
+            print("*", end="")
 datos = recibirDatos()
 ancho = datos[0]
 alto = datos[1]
+graficar(ancho, alto)
+
