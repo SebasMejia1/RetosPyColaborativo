@@ -1,7 +1,7 @@
 # RetosPyColaborativo
 Retos python Nuevas tecnologias Sabado colaborativo
 ***
-##Compañeros de desarrollo
+## Compañeros de desarrollo
 ***
-###Adrian Mosquera
-###Giovanny Valderrama
+### Adrian Mosquera
+### Giovanny Valderrama
