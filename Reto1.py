@@ -5,3 +5,15 @@ def llenarArray ():
         numeros.append(numero)
     return numeros
 
+def sumarNumeros(numeros):
+    for i in range (numeros):
+        suma += i
+    return suma
+
+def calcularPromedio(suma,numeros):
+    cantNumeros = numeros.count
+    promedio = suma/cantNumeros
+    print(f'El promedio de los numeros es de: {promedio}')
+numeros = llenarArray()
+suma = sumarNumeros(numeros)
+calcularPromedio(suma,numeros)
