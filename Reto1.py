@@ -5,4 +5,3 @@ def llenarArray ():
         numeros.append(numero)
     return numeros
 llenarArray()
-    
