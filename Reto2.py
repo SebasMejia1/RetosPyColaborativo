@@ -14,7 +14,8 @@ def calcularPerimetro(ancho,alto):
 def graficar(ancho,alto):  
    for i in range(alto):
     for j in range(ancho):
-            print("*", end="")
+        print("* ", end="")
+    print()
 datos = recibirDatos()
 ancho = datos[0]
 alto = datos[1]
